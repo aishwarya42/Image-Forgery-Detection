@@ -83,26 +83,26 @@ dataset used to perform this testing were 800 and 480, respectively. The program
 generates a text file with the values obtained for True Positive Rate, False Positive
 Rate, Accuracy and Precision.
 #### Formulas used in the calculation of above values:
-Accuracy = (TP + TN) / (TP + TN + FP + FN)
-True-positive rate = TP / (TP + FN)
-False-positive rate = FP / (FP + TN)
-Precision = TP / (TP + FP)
+##### Accuracy = (TP + TN) / (TP + TN + FP + FN)
+##### True-positive rate = TP / (TP + FN)
+##### False-positive rate = FP / (FP + TN)
+##### Precision = TP / (TP + FP)
 In these formulas,
-TP: True positive- a "true positive" is the event that the test makes a positive
+##### TP: True positive- a "true positive" is the event that the test makes a positive
 prediction, and the subject has a positive result under the gold standard [21].
-TN: True negative- a "true negative" is the event that the test makes a negative
+##### TN: True negative- a "true negative" is the event that the test makes a negative
 prediction, and the subject has a negative result under the gold standard [21].
-FN: False negative- a "false negative" is the event that the test makes a negative
+##### FN: False negative- a "false negative" is the event that the test makes a negative
 prediction, and the subject has a positive result under the gold standard [21].
-FP: False positive- a "false positive" is the event that the test makes a positive
+##### FP: False positive- a "false positive" is the event that the test makes a positive
 prediction, and the subject has a negative result under the gold standard.
-Accuracy: Accuracy is a widely used metric for measuring the performance of
+##### Accuracy: Accuracy is a widely used metric for measuring the performance of
 learning systems [22].
-Precision: In pattern recognition, information retrieval and classification (machine
+##### Precision: In pattern recognition, information retrieval and classification (machine
 learning), precision (also called positive predictive value) is the fraction of relevant
 instances among the retrieved instances.
-True positive rate (TPR): It is the proportion of positive instances (ie, feature vectors
+##### True positive rate (TPR): It is the proportion of positive instances (ie, feature vectors
 of malicious applications) classified correctly [22].
-False positive rate (FPR): It is the proportion of negative instances (ie, feature vectors
+##### False positive rate (FPR): It is the proportion of negative instances (ie, feature vectors
 of benign applications) classified incorrectly [22].
-
+![](https://github.com/aishwarya42/Image-Forgery-Detection/blob/main/result/test_results.txt)
