@@ -78,6 +78,7 @@ extended to BITMAP format as well.
 ## Unit Testing
 For efficient performance evaluation of our application, we will be calculating the True Positive Rate, False Positive Rate, Accuracy and Precision of our program.
 The genuine images and images forged by the copy-move method present in CASIA 1 dataset used to perform this testing were 800 and 480, respectively. The program generates a text file with the values obtained for True Positive Rate, False Positive Rate, Accuracy and Precision.
+![](https://github.com/aishwarya42/Image-Forgery-Detection/blob/main/result/test_results.txt)
 #### Formulas used in the calculation of above values:
 ##### Accuracy = (TP + TN) / (TP + TN + FP + FN)
 ##### True-positive rate = TP / (TP + FN)
@@ -100,4 +101,4 @@ In pattern recognition, information retrieval and classification (machine learni
 It is the proportion of positive instances (ie, feature vectors of malicious applications) classified correctly [22].
 ##### False positive rate (FPR): 
 It is the proportion of negative instances (ie, feature vectors of benign applications) classified incorrectly [22].
-![](https://github.com/aishwarya42/Image-Forgery-Detection/blob/main/result/test_results.txt)
+
