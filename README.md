@@ -74,4 +74,5 @@ GUI has simple functionalities of selecting an image from the desired folder and
 to locate copy-move fraud.
 The application allows users to pick images in JPEG and PNG format. It can further be
 extended to BITMAP format as well.
+![](https://github.com/aishwarya42/Image-Forgery-Detection/blob/main/result/result_tkinter.png)
 
